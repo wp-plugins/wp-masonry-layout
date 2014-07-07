@@ -13,30 +13,33 @@ Convert your boring post design into awesome masonry layout. You don't need to b
 Use of shortcodes makes it easy for your to setup masonry layout in less than 5 mins.
 
 Lite Version Features
+
 1. Shortcode Generator. Placed it anywhere you need.
-2. Ajax Load More Button.
-3. Supports Post Type.
-4. 2/3/4/5 Column available.
-5. Custom ordering of post.
-6. 1 default masonry theme.
+1. Ajax Load More Button.
+1. Supports Post Type.
+1. 2/3/4/5 Column available.
+1. Custom ordering of post.
+1. 1 default masonry theme.
 
 Additional Pro Version Features
+
 1. Infinity Scroll to load post when vistor go through the site.
-2. Enable/Disbale Responsive.
-3. Multiple Masonry Themes (New themes are added frequently).
-4. Settings panel for each masonry theme. Change color, font size or add/remove section without changing masonry theme files. 
-5. WooCommerce Theme for your woocommerce store.
-6. Copy Masonry Layout Theme to your Wordpress Theme if you need extra customization.
-7. Premium Support.
+1. Enable/Disbale Responsive.
+1. Multiple Masonry Themes (New themes are added frequently).
+1. Settings panel for each masonry theme. Change color, font size or add/remove section without changing masonry theme files. 
+1. WooCommerce Theme for your woocommerce store.
+1. Copy Masonry Layout Theme to your Wordpress Theme if you need extra customization.
+1. Premium Support.
 
 For More Details about Pro Version. Visit <a href="http://www.masonrylayout.com" target="_blank">http://www.masonrylayout.com</a>.
 
 Demos
+
 1. <a href="http://www.masonrylayout.com/masonry-theme-demo/default/" target="_blank">Default Theme</a>
-2. <a href="http://www.masonrylayout.com/masonry-theme-demo/fishtail/" target="_blank">Fistail (Available in Pro Version Only)</a>
-3. <a href="http://www.masonrylayout.com/masonry-theme-demo/lhotse/" target="_blank">Lhotse (Available in Pro Version Only)</a>
-4. <a href="http://www.masonrylayout.com/masonry-theme-demo/pinterest-inspired/" target="_blank">Pinterest Inspired (Available in Pro Version Only)</a>
-5. <a href="http://www.masonrylayout.com/masonry-theme-demo/woocommerce/" target="_blank">WooCommerce (Available in Pro Version Only)</a>
+1. <a href="http://www.masonrylayout.com/masonry-theme-demo/fishtail/" target="_blank">Fistail (Available in Pro Version Only)</a>
+1. <a href="http://www.masonrylayout.com/masonry-theme-demo/lhotse/" target="_blank">Lhotse (Available in Pro Version Only)</a>
+1. <a href="http://www.masonrylayout.com/masonry-theme-demo/pinterest-inspired/" target="_blank">Pinterest Inspired (Available in Pro Version Only)</a>
+1. <a href="http://www.masonrylayout.com/masonry-theme-demo/woocommerce/" target="_blank">WooCommerce (Available in Pro Version Only)</a>
 
 We don't respond to support tickets created here. Please visit our <a href="http://www.masonrylayout.com/forums/" target="_blank">support forum</a> for any issue. 
 
