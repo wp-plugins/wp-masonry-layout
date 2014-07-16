@@ -1,23 +1,27 @@
-=== WP Masonry Layout (Pinterest like brick design) ===
+=== Masonry Layout (Pinterest Like Grid) ===
 Contributors: dnesscarkey
-Tags: masonry, masonry layout, pinterest inspired, pinterst layout, pinterest design, ajax load post, infinity scroll, jquery masonry plugin, woocommerce masonry theme, brick layout 
+Tags: masonry, masonry layout, pinterest inspired, pinterst layout, pinterest design, ajax load post, infinity scroll, jquery masonry plugin, woocommerce masonry theme, brick layout, grid layout 
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 
-Convert your any wordpress theme into Pinterest like masonry layout.
+Convert your any wordpress theme into Pinterest like masonry grid layout.
 
 == Description ==
 Convert your boring post design into awesome masonry layout. You don't need to buy expensive masonry theme to get masonry layout anymore. 
 
-Use of shortcodes makes it easy for your to setup masonry layout in less than 5 mins.
+Use of shortcodes makes it easy for you to setup masonry layout in less than 5 mins.
+
+You can use this plugin to display blog, portfolio, wooCommerce shop and many more you can think about. The use of ajax loads your post quickly and so removes the hassle of going to each page for your vistors. 
 
 Lite Version Features
 
 1. Shortcode Generator. Placed it anywhere you need.
 1. Ajax Load More Button.
+1. Category selection for Posts.
 1. Supports Post Type.
 1. 2/3/4/5 Column available.
+1. Number of posts per load.
 1. Custom ordering of post.
 1. 1 default masonry theme.
 
@@ -77,6 +81,9 @@ You can post your issue <a href="http://www.masonrylayout.com/forums/" target="_
 
 
 == Changelog ==
+
+= 1.1 =
+* Shortcode placement fix in content.
 
 = 1.0 =
 * First Release

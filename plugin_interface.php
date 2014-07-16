@@ -90,8 +90,13 @@ function wml_shortcode($atts){
 			$shortcodesData		= json_decode($shortcodesRawData, true);
 			if (array_key_exists($shortcodeId, $shortcodesData)){ // Check if requested shortcode is in our record.
 				$shortcodeData	= $shortcodesData[$shortcodeId];
+				
+				ob_start();
 				include('themes/'.$shortcodeData['wmlo_layout_theme'].'/style.php');
 				include('includes/client/wml_container.php');
+				$masonryContainerOutput = ob_get_clean();
+				return $masonryContainerOutput;
+				
 			} else {
 				echo "WP Masonry Posts : Coudln't find shortcode in our record.";
 			}
