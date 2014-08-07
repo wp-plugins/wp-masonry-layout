@@ -117,7 +117,7 @@
                     <tr>
                     	<td>Post Count</td>
                         <td>
-                        	<input type="number" range="1,99" name="wmlo_post_count" value="<?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_post_count'); ?>" class="required small digits" />
+                        	<input type="number" maxlength="2" name="wmlo_post_count" value="<?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_post_count'); ?>" class="required small digits" />
                         </td>
                     </tr>
                     

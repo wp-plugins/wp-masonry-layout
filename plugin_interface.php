@@ -124,7 +124,8 @@ function wml_ajax_load_posts(){
 		//CREATE QUERY ARGUMENTS
 		$query_arg = array(
 				   'post_type' 		=> $shortcodeData['wmlo_post_type'],
-				   'posts_per_page'	=> $shortcodeData['wmlo_post_count']
+				   'posts_per_page'	=> $shortcodeData['wmlo_post_count'],
+				   'post_status'	=> 'publish'
 				   );
 
 		if (($shortcodeData['wmlo_post_type'] == 'post') && ($shortcodeData['wmlo_post_category'] > 0)){ // If post type is post and category is selected

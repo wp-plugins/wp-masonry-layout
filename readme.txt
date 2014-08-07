@@ -1,9 +1,9 @@
 === Masonry Layout (Pinterest Like Grid) ===
 Contributors: dnesscarkey
 Tags: masonry, masonry layout, pinterest inspired, pinterst layout, pinterest design, ajax load post, infinity scroll, jquery masonry plugin, woocommerce masonry theme, brick layout, grid layout 
-Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 1.1
+Requires at least: 3.9
+Tested up to: 3.9.2
+Stable tag: 1.2
 
 Convert your any wordpress theme into Pinterest like masonry grid layout.
 
@@ -81,6 +81,10 @@ You can post your issue <a href="http://www.masonrylayout.com/forums/" target="_
 
 
 == Changelog ==
+
+= 1.2 =
+* Fixed draft post visible issue
+* Fixed post count validation issue
 
 = 1.1 =
 * Shortcode placement fix in content.
