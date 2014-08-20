@@ -132,6 +132,10 @@ function wml_ajax_load_posts(){
 			$query_arg['cat']	= $shortcodeData['wmlo_post_category'];
 		}
 		
+		if (($shortcodeData['wmlo_post_type'] == 'page') && ($shortcodeData['wmlo_page_parent'] > 0)){ // If post type is page and page parent is selected
+			$query_arg['post_parent']	= $shortcodeData['wmlo_page_parent'];
+		}
+		
 		if ($shortcodeData['wmlo_order_by'] != '0'){
 			$query_arg['orderby']	= $shortcodeData['wmlo_order_by'];
 		}

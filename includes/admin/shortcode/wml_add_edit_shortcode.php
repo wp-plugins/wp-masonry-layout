@@ -73,7 +73,8 @@
                         <td>
                             <select name="wmlo_columns" class="required medium">
                             	<option value=""> -- Select -- </option>
-								<option value="col2" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col2'); ?>>2 Columns</option>
+								<option value="col1" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col1'); ?>>1 Column</option>
+                                <option value="col2" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col2'); ?>>2 Columns</option>
                                 <option value="col3" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col3'); ?>>3 Columns</option>
                                 <option value="col4" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col4'); ?>>4 Columns</option>
                                 <option value="col5" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_columns', 'col5'); ?>>5 Columns</option>                            </select>
@@ -99,6 +100,13 @@
                     	<td>Post Category</td>
                         <td>
                         	<?php wp_dropdown_categories(array('hide_empty' => 0, 'class' => 'medium', 'name' => 'wmlo_post_category', 'hierarchical' => true, 'show_option_none' => 'None', 'selected'=> @$shortcodeDetails['wmlo_post_category'])); ?>
+                        </td>
+                    </tr>
+                    
+                    <tr id="page_parent_holder" class="hidden">
+                    	<td>Child Pages of</td>
+                        <td>
+                        	<?php wp_dropdown_pages(array('class' => 'medium', 'name' => 'wmlo_page_parent', 'hierarchical' => true, 'show_option_none' => 'None',  'option_none_value' => '-1', 'selected'=> @$shortcodeDetails['wmlo_page_parent'])); ?>
                         </td>
                     </tr>
                     
@@ -182,6 +190,12 @@
 						jQuery('#post_category_holder').slideDown('slow');
 					} else {
 						jQuery('#post_category_holder').slideUp('slow');
+					}
+					
+					if (jQuery('#wmlo_post_type').val() == 'page'){
+						jQuery('#page_parent_holder').slideDown('slow');
+					} else {
+						jQuery('#page_parent_holder').slideUp('slow');
 					}
 				}
 				openHidePostCategory();
