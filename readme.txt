@@ -2,8 +2,8 @@
 Contributors: dnesscarkey
 Tags: masonry, masonry layout, pinterest inspired, pinterst layout, pinterest design, ajax load post, infinity scroll, jquery masonry plugin, woocommerce masonry theme, brick layout, grid layout 
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.4
+Tested up to: 4.1.1
+Stable tag: 1.4.1
 
 Convert your any wordpress theme into Pinterest like masonry grid layout.
 
@@ -81,6 +81,9 @@ You can post your issue <a href="http://www.masonrylayout.com/forums/" target="_
 
 
 == Changelog ==
+
+= 1.4.1 =
+* WPML Support. Post load as per WPML Language.
 
 = 1.4 =
 * Added random order

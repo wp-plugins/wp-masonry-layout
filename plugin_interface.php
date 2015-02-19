@@ -131,7 +131,7 @@ function wml_ajax_load_posts(){
 				   );
 
 		if (($shortcodeData['wmlo_post_type'] == 'post') && ($shortcodeData['wmlo_post_category'] > 0)){ // If post type is post and category is selected
-			$query_arg['cat']	= $shortcodeData['wmlo_post_category'];
+			$query_arg['cat']	= wml_wpml_icl_object_id($shortcodeData['wmlo_post_category'], 'category');
 		}
 		
 		if (($shortcodeData['wmlo_post_type'] == 'product') && ($shortcodeData['wmlo_product_category'] > 0)){ // If post type is post and category is selected
@@ -174,4 +174,13 @@ function wml_post_orderby($orderby_statement) {
     global $randSeed;
 	$orderby_statement = 'RAND('.$randSeed.')';
     return $orderby_statement;
+}
+
+
+function wml_wpml_icl_object_id($cat_id, $type){
+	if (function_exists('icl_object_id')){ // Check ig WPML plugin is enabled.
+		return icl_object_id($cat_id, $type, true); // Reference  : http://wpml.org/documentation/support/creating-multilingual-wordpress-themes/language-dependent-ids/
+	} else {
+		return $cat_id;
+	}
 }
