@@ -1,6 +1,5 @@
 <div class="wmle_container" id="wmle_container" data-load-status="ready" data-seed="<?php echo rand(); ?>">
-	<div class="wmle_item_holder <?php echo $shortcodeData['wmlo_columns'] ?>"></div> <!-- FILLER DIV FOR WIDTH REFERENCE -->
-	<!-- POSTS LOADS HERE -->
+	<div class="wmle_item_holder <?php echo $shortcodeData['wmlo_columns'] ?>"></div>
 </div>
 
 <?php

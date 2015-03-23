@@ -23,7 +23,8 @@ if(isset($_POST['submit-wmp-shortcode'])){
 						   'wmlo_order_by'				=> $_POST['wmlo_order_by'],
 						   'wmlo_order'					=> $_POST['wmlo_order'],
 						   'wmlo_pagination_style'		=> $_POST['wmlo_pagination_style'],
-						   'wmlo_responsive'			=> $_POST['wmlo_responsive']
+						   'wmlo_responsive'			=> $_POST['wmlo_responsive'],
+						   'wmlo_use_lightbox'			=> $_POST['wmlo_use_lightbox']
 						   );
 	
 	$shortcodesRawData 	= get_option('wmlo_shortcodes_data');

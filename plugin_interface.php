@@ -5,7 +5,7 @@ add_action("admin_print_styles", 'wml_adminCsslibs');
 add_action('wp_enqueue_scripts', 'wml_client_js_css');
 
 function wml_create_menu() { // Create menu for the plugin
-	add_menu_page( 'WP Masonry Posts', 'WP Masonry', 'manage_options', 'wml_shortcodes', 'wml_shortcodes', '', 81 );
+	add_menu_page( 'WP Masonry Posts', 'WP Masonry', 'manage_options', 'wml_shortcodes', 'wml_shortcodes', '');
 	add_submenu_page( 'wml_shortcodes', 'Shortcodes', 'Shortcodes', 'manage_options', 'wml_shortcodes', 'wml_shortcodes');
 	add_submenu_page( 'wml_shortcodes', 'Documentation', 'Documentation', 'manage_options', 'wml_documentation', 'wml_documentation');
 	add_submenu_page( 'wml_shortcodes', 'Get Pro Version', 'Get Pro Version', 'manage_options', 'wml_get_pro_version', 'wml_get_pro_version');

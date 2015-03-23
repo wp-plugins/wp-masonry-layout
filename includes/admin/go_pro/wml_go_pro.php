@@ -13,6 +13,7 @@
 			<ol style="font-size:14px;">
             	<li>Infinity Scroll for auto load of post when user go through the site.</li>
                 <li>Responsive layout for mobile devices.</li>
+                <li>Lightbox integration for featured images.</li>
                 <li>Multiple Masonry Themes. Added new in each update.</li>
                 <li>Masonry Theme Settings to add/edit section and change color scheme.</li>
                 <li>Masonry Theme For WooCommerce Store.</li>

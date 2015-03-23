@@ -4,7 +4,7 @@ Plugin Name: WP Masonry Layout
 Plugin URI: http://www.masonrylayout.com
 Description: Masonry Layout Posts for Wordpress
 Author: Dinesh Karki
-Version: 1.4.1
+Version: 1.5
 Author URI: http://www.masonrylayout.com
 */
 

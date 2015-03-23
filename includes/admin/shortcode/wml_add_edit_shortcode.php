@@ -185,6 +185,17 @@
                         </td>
                     </tr>
                     
+                     <tr>
+                    	<td>Use lightbox</td>
+						<td>
+                        	<select name="wmlo_use_lightbox" class="required medium">
+                            	<option value=""> -- Select -- </option>
+                                <option value="no" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_use_lightbox', 'no'); ?>>No</option>
+                                <option  disabled="disabled" value="yes" <?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_use_lightbox', 'yes'); ?>>Yes (Available in Pro Version Only)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
                     <tr>        
                         <td>&nbsp;</td>
                         <td><input type="submit" name="submit-wmp-shortcode" class="button-primary small" value="Save" /></td>
