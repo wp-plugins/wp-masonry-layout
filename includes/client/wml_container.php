@@ -8,7 +8,7 @@
 ?>
 
 
-<div class="wmle_loadmore" class="wmle_loadmore_<?php echo $shortcodeId; ?>">
+<div class="wmle_loadmore wmle_loadmore_<?php echo $shortcodeId; ?>">
 	<a href="<?php echo $link; ?>" class="wmle_loadmore_btn" rel="<?php echo $containerDivId; ?>">Load More</a>
 </div>
 
