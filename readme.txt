@@ -2,8 +2,8 @@
 Contributors: dnesscarkey
 Tags: masonry, masonry layout, pinterest inspired, pinterst layout, pinterest design, ajax load post, infinity scroll, jquery masonry plugin, woocommerce masonry theme, brick layout, grid layout 
 Requires at least: 3.9
-Tested up to: 4.1.1
-Stable tag: 1.5
+Tested up to: 4.2.3
+Stable tag: 1.6
 
 Convert your any wordpress theme into Pinterest like masonry grid layout.
 
@@ -28,6 +28,9 @@ Lite Version Features
 Additional Pro Version Features
 
 1. Infinity Scroll to load post when vistor go through the site.
+1. Generic shortcode for category, archive, authors, search, tags and even for custom taxonomies template.
+1. Custom Query field for extra query filters.
+1. Wordpress Filters support for complex query.
 1. Enable/Disbale Responsive.
 1. Enable/Disable Light Box for images.
 1. Multiple Masonry Themes (New themes are added frequently).
@@ -45,6 +48,9 @@ Demos
 1. <a href="http://www.masonrylayout.com/masonry-theme-demo/lhotse/" target="_blank">Lhotse (Available in Pro Version Only)</a>
 1. <a href="http://www.masonrylayout.com/masonry-theme-demo/pinterest-inspired/" target="_blank">Pinterest Inspired (Available in Pro Version Only)</a>
 1. <a href="http://www.masonrylayout.com/masonry-theme-demo/woocommerce/" target="_blank">WooCommerce (Available in Pro Version Only)</a>
+
+<strong>Installation Video</strong>
+[youtube http://www.youtube.com/watch?v=EHrV2XzSd1k]
 
 We don't respond to support tickets created here. Please visit our <a href="http://www.masonrylayout.com/forums/" target="_blank">support forum</a> for any issue. 
 
@@ -82,6 +88,8 @@ You can post your issue <a href="http://www.masonrylayout.com/forums/" target="_
 
 
 == Changelog ==
+= 1.6 =
+* Image height issue fixed
 
 = 1.5 =
 * Admin Menu disappear fixed.

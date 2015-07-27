@@ -57,6 +57,16 @@
                         <td width="170">Reference Name</td>
                         <td><input type="text" name="wmlo_reference_name" value="<?php echo wml_fill_up_form($shortcodeDetails, 'wmlo_reference_name'); ?>" maxlength="50" minlength="5" class="required medium"/></td>
 					</tr>
+                    <tr>
+                        <td width="170">Generic Shortcode</td>
+                        <td><input type="checkbox" name="wmlo_is_generic" disabled="disabled" id="wmlo_is_generic" value="yes" <?php echo @$shortcodeDetails['wmlo_is_generic'] == 'yes'?'checked="checked"':''; ?> onchange="genericFieldChanges();" />Yes, This is generic shortcode. (Available in Pro Version Only)<br/>
+                        <div id="generic_shortcode_info" style="padding-top:5px;">
+                        <strong>Note : </strong>Generic shortcode are used in Search, Category,<br/>
+                        Archive, Author, Tag templates. You need to edit your template<br/>
+                        file to place this shortcode. Please use this with caution.<br/>For documentation, please click <a href="http://masonrylayout.com/documentations/" target="_blank">here</a>.
+                        </div>
+                        </td>
+					</tr>
                     
                     <tr>
                     	<td>Layout Theme</td>
@@ -196,10 +206,20 @@
                         </td>
                     </tr>
                     
+                     <tr>
+                        <td width="170">Custom Query</td>
+                        <td><input type="text" name="wmlo_custom_query" value="Available in Pro Version Only" readonly="readonly" maxlength="" class="medium"/><br/>
+                        Write custom query for extra filters if you need. Like<br/>Tags, Author or even custom taxonoies of post type.<br/>For accepted parameters, click <a href="https://codex.wordpress.org/Class_Reference/WP_Query#Parameters" target="_blank">here</a>.<br/>Eg: <strong>meta_key=epicredrank&amp;meta_value=1</strong><br/><br/>
+                        You may also use <a href="http://masonrylayout.com/documentations/" target="_blank">filters</a> for complex custom query.<br/>
+
+                        </td>
+					</tr>
+                    
                     <tr>        
                         <td>&nbsp;</td>
                         <td><input type="submit" name="submit-wmp-shortcode" class="button-primary small" value="Save" /></td>
                     </tr> 
+                    
                 </table>	
             </form>	
                 

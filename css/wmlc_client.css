@@ -7,7 +7,7 @@
 .wmle_container .wmle_item_holder.col1{width:100%}
 .wmle_container a{padding:0px; margin:0px;}
 
-.wmle_container .wmle_item_holder .wpme_image img{max-width:100%;}
+.wmle_container .wmle_item_holder .wpme_image img{max-width:100%; height:auto;}
 .wmle_loadmore .loading_icon{ box-shadow:none; border-radius:none;}
 .wmle_loadmore .wmle_loadmore_btn:focus{outline: 0;}
 .wmle_loadmore{ text-align:center; padding-top:10px; padding-bottom:10px;}
